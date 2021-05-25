@@ -1,0 +1,43 @@
+@media all and (max-width:991px){
+    .menu ul{
+        padding: 0;
+        
+        display: none;
+    }
+    .menu ul li{
+        float: none;
+    }
+    .line a{
+        border: 0;
+    }
+    .bar{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 28px;
+        text-transform: capitalize;
+      }
+      .bar i{
+        float: right;
+    }
+    .logo{
+        width: 20%;
+     }
+     .logo img{
+         width: 80%;
+     }
+     .smal-mb{
+         margin-bottom: 20px;
+     }
+     .banner-content{
+        width: 80%;
+        margin: 0 10%;
+       
+    }
+    .cv-photo-wrapper {
+        width: 90%;
+        margin: 50px auto;
+        height: 570px;
+    }
+    
+}

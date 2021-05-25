@@ -1,0 +1,5 @@
+name:Lafza
+type:one page portfolio website
+description:
+using resource:htmk5,css3,bootstrap.jquery,font-awesome
+image:freepik,pngtree,ulplash

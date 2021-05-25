@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--===Stylesheet===-->
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+  <title>bootstrap mizuxe</title>
+
+</head>
+<body>
+  <!--=====Start Nav Area====-->
+  <nav class="navbar bg-light navbar-light navbar-expand-md  py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="mizuxe logo" width="50" height="50">
+        <h3 class="d-inline align-middle">Mizuxe</h3>
+      </a>
+      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#showcase">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#authors">Meet the author</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--=====End Nav Area====-->
+  <!--=====Start Showcase Area====-->
+  <section id="showcase" class="py-5 text-light text-center">
+    <div class="primary-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h1 class="mt-5 pt-5 display-1">Do What You Dream Of...</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, deleniti.</p>
+            <a class="btn btn-outline-light btn-lg" href="#"><i class="fas fa-arrow-right"></i>Read More</a>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid d-none d-md-block" src="img/book.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End Showcase Area====-->
+  <!--=====Start Subscriber Area====-->
+  <section id="subscriber" class="bg-dark py-5">
+    <div class="container">
+      <form class="row">
+        <div class="col-md-4">
+          <div class="form-group mb-0">
+            <input type="text" placeholder="Name" class="form-control form-control-lg">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group mb-0 my-3 my-sm-3 my-md-0">
+            <input type="email" placeholder="Email" class="form-control form-control-lg">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary btn-lg btn-block"><i class="far fa-envelope-open"></i>Subscriber</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--=====End Subscriber Area====-->
+  <!--=====Start Boxes Area====-->
+  <section id="boxes" class="text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-info">
+            <div class="card-body">
+              <h3 class="text-info">Be Better</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card bg-info text-light">
+            <div class="card-body">
+              <h3 class="text-light">Be Smarter</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-info">
+            <div class="card-body">
+              <h3 class="text-info">Be Fasterr</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card bg-info text-light">
+            <div class="card-body">
+              <h3 class="text-light">Be Smarter</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End Boxes Area====-->
+  <!--=====Start About Area====-->
+  <section id="about" class="text-center py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="book-info">
+            <h2 class="display-4">Why This Book?</h2>
+            <p class="lead mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, veniam, voluptate! Beatae magni, impedit distinctio</p>
+          </div>
+          <!--===Accordion===-->
+          <div id="accordion" class="pt-5" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h5 class="mb-0">
+                  <div data-toggle="collapse" href="#collapse1">
+                    <i class="fa fa-arrow-circle-down"></i> Get Inspired
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga explicabo iure quia. Facilis ratione, aut, impedit id rerum voluptate?</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h5 class="mb-0">
+                  <div data-toggle="collapse" href="#collapse2">
+                     <i class="fa fa-arrow-circle-down"></i> Gain The Knowledge
+                 </div>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga explicabo iure quia. Facilis ratione, aut, impedit id rerum voluptate?</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h5 class="mb-0">
+                  <div data-toggle="collapse" href="#collapse3">
+                     <i class="fa fa-arrow-circle-down"></i> open your mind
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga explicabo iure quia. Facilis ratione, aut, impedit id rerum voluptate?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End About Area====-->
+  <!--=====Start Authors Area====-->
+  <section id="authors" class="py-5 text-center">
+    <div class="container">
+      <div class="author-head mb-5">
+        <h2 class="display-4">Meet The Authors</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, veniam, voluptate! Beatae magni, impedit distinctio.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mt-sm-5">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid rounded-circle w-50" src="img/person1.jpg" alt="Susan Williams">
+              <h3 class="mt-5">Susan Williams</h3>
+              <h5>Lead Writer</h5>
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mt-sm-5">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid rounded-circle w-50" src="img/person2.jpg" alt="Susan Williams">
+              <h3 class="mt-5">Susan Williams</h3>
+              <h5>Lead Writer</h5>
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mt-sm-5">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid rounded-circle w-50" src="img/person3.jpg" alt="Susan Williams">
+              <h3 class="mt-5">Susan Williams</h3>
+              <h5>Lead Writer</h5>
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mt-sm-5">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid rounded-circle w-50" src="img/person4.jpg" alt="Susan Williams">
+              <h3 class="mt-5">Susan Williams</h3>
+              <h5>Lead Writer</h5>
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="p-4">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End Authors Area====-->
+  <!--=====Stat Contact Area====-->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="contact-info">
+            <h2 class="display-4">Get In Touch</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, cumque.</p>
+          </div>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" placeholder="Name" class="form-control form-control-lg">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </div>
+                <input type="email" placeholder="Email" class="form-control form-control-lg">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea name="message" rows="4"  class="form-control form-control-lg"></textarea>
+              </div>
+            </div>
+            <input type="submit" value="submit" class="btn btn-info btn-lg btn-block">
+          </form>
+        </div>
+        <div class="col align-self-center">
+          <img src="img/logo.png" class="img-fluid d-none d-md-block" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End Contact Area====-->
+  <!--=====Start footer Area====-->
+  <section id="footer-info" class="bg-info py-5 text-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">Copyright &copy; 2018 Mizuxe.</p>
+          <span class="lead">Designed By: <a class="text-light" href="#">Nazrul Rafi</a> </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====End footer Area====-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstarp.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+</body>
+</html>

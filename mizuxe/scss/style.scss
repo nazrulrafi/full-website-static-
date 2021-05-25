@@ -1,0 +1,66 @@
+$primary : #3292a6;
+$primary-overlay: rgba(50, 146, 156, 0.7);
+body{
+  margin-top: 95px;
+}
+.navbar{
+  box-shadow: 2px 2px 5px $primary;
+  background: #ffffff;
+  opacity: 0.9;
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+
+    .nav-link{
+      color: #252525;
+    }
+    .nav-link:hover{
+      color:$primary;
+    }
+  }
+  .nav-item:last-child{
+    padding-right: 0px;
+  }
+}
+#showcase{
+  background-image: url('../img/mountain.jpg');
+  min-height: 600px;
+  position: relative;
+
+  .primary-overlay{
+    background: $primary-overlay;
+    position: absolute;
+    min-height: 600px;
+    top: 0;
+    left: 0;
+    height:100%;
+    width:100%;
+  }
+}
+#authors{
+  img{
+    margin-top: -50px;
+  }
+  .card:hover{
+    background: #3292A6;
+    color: #ffffff;
+
+    .fab{
+      color: #ffffff;
+    }
+  }
+  .fab{
+    font-size: 25px;
+    color: #3292A6;
+  }
+}
+
+
+@media(max-width:576px){
+  #showcase{
+    h1{
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,0 +1,1681 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+
+    <title>ecommerce project</title>
+
+    <script src="https://kit.fontawesome.com/c1764fe486.js"></script>
+    <style>
+        .payment ul{list-style-type:none;padding: 0;}
+        .payment ul li {float: left;}
+        .payment ul li a{display:block; width:64px;height: 42px;background-image: url('images/payment/portwallet-6.png');margin: 5px}
+
+        .payment ul .visa a{background-position: 0 0}
+        .payment ul .master a{background-position: 64px 0}
+        .payment ul .ucash a{background-position: 128px 0}
+        .payment ul .surecash a{background-position: 0 125px}
+        .payment ul .roket a{background-position: 190px 0}
+        .payment ul .bkash a{background-position: 256px 126px}
+        .newsletter{
+            background-image: url('images/background-newslater-5.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+        }
+        .about-store{
+             background-image: url('images/about-us2-2.jpg');
+             background-size: cover;
+             padding: 100px 0;
+        }
+    </style>
+  </head>
+  <body>
+      
+      <!--this is page top bar-->
+        <header>
+            <div class="header-top d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="top-left"><strong>Call Us</strong>  +880158796542</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="top-middle"><i class="fas fa-plane"></i>
+                                Free worldwide shipping on all orders over <strong>$50.00i</strong> 
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="top-social">
+                                <li><a href=""><i class="fab facebook fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab twitter fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab instagram fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fab youtube fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="this is logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="input-group head-input input-group-lg pl-3"> 
+                                <input class="form-control" type="search" placeholder="Search Here">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="user">
+                                <ul>
+                                    <li><a href=""><i class="fas fa-user-alt"></i><span class="user-text">My Account</span></a></li>
+                                    <li><a href=""><i class="far fa-question-circle"></i><span class="user-text">Help?</span></a></li>
+                                    <li  class="popup1_open"><a href=""><i class="fas fa-shopping-cart"></i><span class="user-text">Cart</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </header>
+        <<!--====This is site main menu====-->
+        <nav class="main-menu"> 
+            <div class="container">
+                <a href="#" class="bar">Menu <i class="fa fa-bars"></i></a>
+                <ul class="menubar">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Shop <i class="fas fa-angle-down caret"></i></a>
+                        <ul>
+                            <li><a href="#">Cosmatics</a></li>
+                            <li><a href="#">Ornaments</a></li>
+                            <li><a href="#">Dresses </a> </li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Otherst</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Men <i class="fas fa-angle-down caret"></i></a> 
+                        <ul>
+                            <li><a href="#">Cosmatics</a></li>
+                            <li><a href="#">Ornaments</a></li>
+                            <li><a href="#">Dresses </a> </li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Otherst</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Women <i class="fas fa-angle-down caret"></i></a>
+                            <ul>
+                                <li><a href="#">Cosmatics</a></li>
+                                <li><a href="#">Ornaments</a></li>
+                                <li><a href="#">Dresses </a></li>
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Otherst</a></li>
+                            </ul>
+    
+    
+                    </li>
+                    <li><a href="product_details.html">Details </a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Contact </a></li>
+                </ul>
+                <div class="main-menu-right">
+                    <div class="menu-right-text d-none d-lg-block">
+                        <span >0.00</span><i class="fas fa-shopping-basket"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <!--This is our main slider-->
+        
+        <!--This is primary section-->
+     
+</div>
+</header>
+ <div class="sections nav-sections">
+
+
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+<!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+ <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+<!-- ko if: messages().messages && messages().messages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="category-view"> <div class="category-cms">
+</div>
+</div><script type="text/javascript">
+    // <![CDATA[
+    require([
+        'jquery',
+        'owlcarouselmin'
+    ], function ($,owlcarouselmin) {
+        
+        $('.populer-products .owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            navigation: true,
+            responsiveClass: true,
+            lazyLoad: true,
+          
+            dots:false,
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                480: {
+                    items: 2,
+                    nav: false
+                },
+                768: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true
+                }
+            }
+        });
+    });
+    // ]]>
+
+</script>
+  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+<div class="columns"><div class="column main"> <div class="block-title">
+<strong></strong>
+</div>
+
+<div class="listindustry-catepage category-block-thumnail">
+<div class="category-image-flex owl-carousel owl-theme">
+<div class="cat-item-inner inner">
+<a class="cat-item-link" href="" title="Desktop & Laptops">
+<img class="cat-item-image" src="https://tse1.mm.bing.net/th?id=OIP.8XNgrSlMKwG5qoiCIif6AQHaF8&pid=Api&P=0&w=205&h=165" alt="Desktop & Laptops" />
+<span class="cat-item-name">
+
+Desktop & Laptops </span>
+</a>
+</div>
+<div class="cat-item-inner inner">
+<a class="cat-item-link" href="" title="Printers & Copiers">
+<img class="cat-item-image" src="https://tse3.mm.bing.net/th?id=OIP.5Sfs-dBuhIzdjGY2dbFPnQHaFP&pid=Api&P=0&w=245&h=175" alt="Printers & Copiers" />
+<span class="cat-item-name">
+
+Printers & Copiers </span>
+</a>
+</div>
+<div class="cat-item-inner inner">
+<a class="cat-item-link" href="" title="Accessories & Peripherals">
+<img class="cat-item-image" src="https://tse4.mm.bing.net/th?id=OIP.P-CgYDCiZAAWZeiLCzgaDwD6D6&pid=Api&P=0&w=300&h=300" alt="Accessories & Peripherals" />
+<span class="cat-item-name">
+
+Accessories & Peripherals </span>
+
+ </a>
+</div>
+<div class="cat-item-inner inner">
+<a class="cat-item-link" href="" title="Scanners">
+<img class="cat-item-image" src="https://tse1.mm.bing.net/th?id=OIP.5LiB2XPRVTPQq94VsK4PuwHaE1&pid=Api&P=0&w=260&h=171" alt="Scanners" />
+<span class="cat-item-name">
+
+Scanners </span>
+</a>
+</div>
+<div class="cat-item-inner inner">
+<a class="cat-item-link" href="" title="Networking Products">
+<img class="cat-item-image" src="https://tse2.mm.bing.net/th?id=OIP.PBWxS4hVcu2eaqx7YdaB6AHaEv&pid=Api&P=0&w=294&h=189" alt="Networking Products" />
+<span class="cat-item-name">
+
+Networking Products </span>
+</a>
+</div>
+
+
+</div>
+</div>
+<div>
+                   
+                </div>
+				
+                   
+                </div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Scriptlodge_Bannerslider/js/owlcarousel/owlcarouselconfig": {}
+        }
+    }
+</script>
+<input name="form_key" type="hidden" value="ZUuTlsh3JDVXyowU" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+<script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/sindabad.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/sindabad.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/sindabad.com\/"};
+    </script>
+<!-- ko template: getTemplate() --><!-- /ko -->
+<script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"msp_recaptcha":{"component":"MSP_ReCaptcha\/js\/reCaptcha","displayArea":"additional-login-form-fields","configSource":"checkoutConfig","reCaptchaId":"msp-recaptcha-popup-login","zone":"login","badge":"inline","settings":{"siteKey":"","size":"normal","badge":null,"theme":"light","lang":null,"enabled":{"login":false,"create":false,"forgot":false,"contact":false}}},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fsindabad.com\u002Fstatic\u002Fversion1560831708\u002Ffrontend\u002FZeroGravity\u002Fsindabad\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+
+
+<script type="text/x-magento-init">
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/sindabad.com\/banner\/ajax\/load\/","cacheTtl":30000}}}</script>
+
+
+
+<div class='populer-products'>
+<div class="block widget block-products-list grid">
+<div class="block-title">
+    <strong>Desktop & Laptops</strong>
+
+<a class="cat-item-link" target="_blank" href="" title="Desktop & Laptops">
+
+</a>
+</div>
+<div class="block-content">
+<div class="products-grid grid" id="cat_2129">
+<ol class="product-items owl-carousel owl-theme widget-product-grid">
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://c1.neweggimages.com/NeweggImage/ProductImage/34-850-802-Z09.jpg" max-width="206" max-height="180" alt="Lenovo V330 Laptop Intel Core i3, 8th Generation" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Lenovo V330 Laptop Intel Core i3, 8th Generation" href="" class="product-item-link">
+Lenovo V330 Laptop Intel Core i3, 8th Generation </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="36031" data-price-box="product-id-36031">
+<a href="https://c1.neweggimages.com/NeweggImage/ProductImage/34-850-802-Z09.jpg" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-36031-widget-product-grid" data-price-amount="41760" data-price-type="" class="price-wrapper ">৳41,760.00</span>
+</span>
+</a>
+</div>
+
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+
+
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse4.mm.bing.net/th?id=OIP.IpOAfVtIrep30980rl1nNgHaHa&pid=Api&P=0&w=300&h=300" alt="Asus ZenBook 14 UX433FA, 8th Gen Intel Core i5 8265U , 8GB DDR4, 512GB PCIe SSD, 14.0 Inch FHD Display, Royal Blue (Glass)" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus ZenBook 14 UX433FA, 8th Gen Intel Core i5 8265U , 8GB DDR4, 512GB PCIe SSD, 14.0 Inch FHD Display, Royal Blue (Glass)" href="" class="product-item-link">
+Asus ZenBook 14 UX433FA, 8th Gen Intel Core i5 8265U , 8GB DDR4, 512GB PCIe SSD, 14.0 Inch FHD Display, Royal Blue (Glass) </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="37619" data-price-box="product-id-37619">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-37619-widget-product-grid" data-price-amount="83780" data-price-type="" class="price-wrapper ">৳83,780.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://ryanscomputers.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/x/4/x442ua-dark-gray-4.jpg" max-width="206" max-height="180" alt="Asus VivoBook X442UA, Intel 8th Gen, Core i3, 14 inches, Dark Gray" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus VivoBook X442UA, Intel 8th Gen, Core i3, 14 inches, Dark Gray" href="" class="product-item-link">
+Asus VivoBook X442UA, Intel 8th Gen, Core i3, 14 inches, Dark Gray </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="30107" data-price-box="product-id-30107">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-30107-widget-product-grid" data-price-amount="39250" data-price-type="" class="price-wrapper ">৳39,250.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://i1.wp.com/www.bestshoppy.com/wp-content/uploads/2017/01/2-in-1-Laptop-With-Touch-Screen.jpg" max-width="206" max-height="180" alt="HP ENVY 13-D019TU, 6th Gen Intel Core i7, 13.3 inches LED Display
+" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="HP ENVY 13-D019TU, 6th Gen Intel Core i7, 13.3 inches LED Display
+" href="" class="product-item-link">
+HP ENVY 13-D019TU, 6th Gen Intel Core i7, 13.3 inches LED Display
+</a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="9429" data-price-box="product-id-9429">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-9429-widget-product-grid" data-price-amount="104900" data-price-type="" class="price-wrapper ">৳104,900.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse1.mm.bing.net/th?id=OIP.M3Y80VEtTcAe3QutK3ay3AHaHa&pid=Api&P=0&w=300&h=300"ax-width="206" max-height="180" alt="HP Prodesk Microtower 400 G4 Brand PC, Intel Core i5" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="HP Prodesk Microtower 400 G4 Brand PC, Intel Core i5" href="" class="product-item-link">
+HP Prodesk Microtower 400 G4 Brand PC, Intel Core i5 </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="9589" data-price-box="product-id-9589">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-9589-widget-product-grid" data-price-amount="43400" data-price-type="" class="price-wrapper ">৳43,400.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+
+
+ </ol>
+</div>
+</div>
+</div>
+
+
+<div class="block widget block-products-list grid">
+<div class="block-title">
+<strong>Printers & Copiers</strong>
+<a class="cat-item-link" target="_blank" href="https://sindabad.com/computer-it/printers-copiers.html" title="Printers & Copiers">
+
+</a>
+</div>
+<div class="block-content">
+<div class="products-grid grid" id="cat_1925">
+<ol class="product-items owl-carousel owl-theme widget-product-grid">
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse3.mm.bing.net/th?id=OIP.43MpKmCxklLDapSZuR2ppAAAAA&pid=Api&P=0&w=221&h=167" max-width="206" max-height="180" alt="HP 87A Original LaserJet Toner Cartridge, CF287A, Black" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="HP 87A Original LaserJet Toner Cartridge, CF287A, Black" href="" class="product-item-link">
+ HP 87A Original LaserJet Toner Cartridge, CF287A, Black </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="32920" data-price-box="product-id-32920">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-32920-widget-product-grid" data-price-amount="17220" data-price-type="" class="price-wrapper ">৳17,220.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse4.mm.bing.net/th?id=OIP.KQRaY4l2yVEvgIy5_HT-XgHaHa&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Samsung MLT-D203S/SEE Toner, Black" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Samsung MLT-D203S/SEE Toner, Black" href="" class="product-item-link">
+Samsung MLT-D203S/SEE Toner, Black </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="33282" data-price-box="product-id-33282">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-33282-widget-product-grid" data-price-amount="6380" data-price-type="" class="price-wrapper ">৳6,380.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP.CPRtszA_P2Jiwh6hGP8-xwAAAA&pid=Api&P=0&w=190&h=174" max-width="206" max-height="180" alt="HP 45A Genuine Cartridge, Black" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="HP 45A Genuine Cartridge, Black" href="" class="product-item-link">
+HP 45A Genuine Cartridge, Black </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="28543" data-price-box="product-id-28543">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-28543-widget-product-grid" data-price-amount="2850" data-price-type="" class="price-wrapper ">৳2,850.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse4.mm.bing.net/th?id=OIP.VVfjE-xoGEDRHQEFc69FuQHaHa&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="HP Cartridge 933XL, CN056AN, Yellow" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="HP Cartridge 933XL, CN056AN, Yellow" href="" class="product-item-link">
+HP Cartridge 933XL, CN056AN, Yellow </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="34810" data-price-box="product-id-34810">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-34810-widget-product-grid" data-price-amount="1392" data-price-type="" class="price-wrapper ">৳1,392.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="product-item"> <div class="product-item-info">
+ <a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse4.mm.bing.net/th?id=OIP.qTmIeV6chsnqF91VpS11bwHaHa&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Photocon HP-29X Toner Cartridge, Black" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Photocon HP-29X Toner Cartridge, Black" href="" class="product-item-link">
+Photocon HP-29X Toner Cartridge, Black </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="36059" data-price-box="product-id-36059">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-36059-widget-product-grid" data-price-amount="2592" data-price-type="" class="price-wrapper ">৳2,592.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+ </ol>
+</div>
+</div>
+</div>
+
+
+
+<div class="block widget block-products-list grid">
+<div class="block-title">
+<strong>Accessories & Peripherals</strong>
+<a class="cat-item-link" target="_blank" href="" title="Accessories & Peripherals">
+
+</a>
+</div>
+<div class="block-content">
+<div class="products-grid grid" id="cat_1521">
+<ol class="product-items owl-carousel owl-theme widget-product-grid">
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP._G5hr63Ke-1bcCxMwkixHQHaHa&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Asus Ext. SBW-06D2X-U Optical Drive BluRay Rw" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus Ext. SBW-06D2X-U Optical Drive BluRay Rw" href="" class="product-item-link">
+Asus Ext. SBW-06D2X-U Optical Drive BluRay Rw </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35434" data-price-box="product-id-35434">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35434-widget-product-grid" data-price-amount="8352" data-price-type="" class="price-wrapper ">৳8,352.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP.TQMBfJuv3UN6z8F3KcyZdQHaFx&pid=Api&P=0&w=208&h=163" max-width="206" max-height="180" alt="Samsung  Blu-ray Home Entertainment System J5130,1000 Watt, 5.1 inches" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Samsung  Blu-ray Home Entertainment System J5130,1000 Watt, 5.1 inches" href="" class="product-item-link">
+Samsung Blu-ray Home Entertainment System J5130,1000 Watt, 5.1 inches </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="34749" data-price-box="product-id-34749">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-34749-widget-product-grid" data-price-amount="39264" data-price-type="" class="price-wrapper ">৳39,264.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse1.mm.bing.net/th?id=OIP.8f1S6Kf-yNtBLcz84BVq7wHaFj&pid=Api&P=0&w=236&h=178" max-width="206" max-height="180" alt="A4 Tech OP-620D, USB Optical Mouse" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="A4 Tech OP-620D, USB Optical Mouse" href="" class="product-item-link">
+A4 Tech OP-620D, USB Optical Mouse </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="31965" data-price-box="product-id-31965">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-31965-widget-product-grid" data-price-amount="275" data-price-type="" class="price-wrapper ">৳275.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse1.mm.bing.net/th?id=OIP.HVS_hr40mM5oP6SY9hvaOgAAAA&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Samsung Wireless Subwoofer, Flat Soundbar w, HW-K360 130W 2.1Ch" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Samsung Wireless Subwoofer, Flat Soundbar w, HW-K360 130W 2.1Ch" href="" class="product-item-link">
+Samsung Wireless Subwoofer, Flat Soundbar w, HW-K360 130W 2.1Ch </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="34746" data-price-box="product-id-34746">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-34746-widget-product-grid" data-price-amount="20064" data-price-type="" class="price-wrapper ">৳20,064.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP.UXnp3M7EEdnvoVE5FSn4rwHaHa&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Asus BW-16D1HT Optical Drive BluRay RW" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus BW-16D1HT Optical Drive BluRay RW" href="" class="product-item-link">
+Asus BW-16D1HT Optical Drive BluRay RW </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35435" data-price-box="product-id-35435">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35435-widget-product-grid" data-price-amount="7200" data-price-type="" class="price-wrapper ">৳7,200.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+ </ol>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="block widget block-products-list grid">
+<div class="block-title">
+<strong>Scanners</strong>
+<a class="cat-item-link" target="_blank" href="" title="Scanners">
+
+</a>
+</div>
+<div class="block-content">
+<div class="products-grid grid" id="cat_1479">
+<ol class="product-items owl-carousel owl-theme widget-product-grid">
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse1.mm.bing.net/th?id=OIP.Y0Qn4IfPzuwDXbjKh9MFUwHaEh&pid=Api&rs=1&c=1&qlt=95&w=205&h=124" max-width="206" max-height="180" alt="Honeywell MS 5145, Barcode scanner" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Honeywell MS 5145, Barcode scanner" href="" class="product-item-link">
+Honeywell MS 5145, Barcode scanner </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35297" data-price-box="product-id-35297">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35297-widget-product-grid" data-price-amount="4128" data-price-type="" class="price-wrapper ">৳4,128.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse1.mm.bing.net/th?id=OIP.0vhGyBRXBAgiOk5iizYLhAHaHa&pid=Api&rs=1&c=1&qlt=95&w=113&h=113" max-width="206" max-height="180" alt="LI4278 Bluetooth Barcode Scanner" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="LI4278 Bluetooth Barcode Scanner" href="" class="product-item-link">
+LI4278 Bluetooth Barcode Scanner </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35303" data-price-box="product-id-35303">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35303-widget-product-grid" data-price-amount="20160" data-price-type="" class="price-wrapper ">৳20,160.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP.BRXqNjh31GrVZSqc0CIj7gAAAA&pid=Api&P=0&w=232&h=175" max-width="206" max-height="180" alt="Pos Digi DS-100, Barcode Scanner" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Pos Digi DS-100, Barcode Scanner" href="" class="product-item-link">
+Pos Digi DS-100, Barcode Scanner </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35299" data-price-box="product-id-35299">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35299-widget-product-grid" data-price-amount="2400" data-price-type="" class="price-wrapper ">৳2,400.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse2.mm.bing.net/th?id=OIP.Xlr2RNX0g1hrvclnrklxbwHaKV&pid=Api&P=0&w=300&h=300" max-width="206" max-height="180" alt="Honeywel MS 1250, Barcode scanner" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Honeywel MS 1250, Barcode scanner" href="" class="product-item-link">
+ Honeywel MS 1250, Barcode scanner </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35295" data-price-box="product-id-35295">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35295-widget-product-grid" data-price-amount="6720" data-price-type="" class="price-wrapper ">৳6,720.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li><li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://cdn.barcodesinc.com/images/models/lg/Honeywell/1900g-ratchet-kit.jpg" max-width="206" max-height="180" alt="Honeywel MS 1900, Xenon" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Honeywel MS 1900, Xenon" href="" class="product-item-link">
+Honeywel MS 1900, Xenon </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35296" data-price-box="product-id-35296">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35296-widget-product-grid" data-price-amount="18240" data-price-type="" class="price-wrapper ">৳18,240.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+</ol>
+</div>
+</div>
+</div>
+
+
+
+<div class="block widget block-products-list grid">
+<div class="block-title">
+<strong>Networking Products</strong>
+<a class="cat-item-link" target="_blank" href="" title="Networking Products">
+
+</a>
+</div>
+<div class="block-content">
+<div class="products-grid grid" id="cat_1087">
+<ol class="product-items owl-carousel owl-theme widget-product-grid">
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse3.mm.bing.net/th?id=OIP.tUNpSpyHC0n5hC8i9LS7SQHaE4&pid=Api&P=0&w=292&h=193" max-width="206" max-height="180" alt="Asus RT-AC3200 Router, 3G/4G Supported" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus RT-AC3200 Router, 3G/4G Supported" href="" class="product-item-link">
+Asus RT-AC3200 Router, 3G/4G Supported </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35490" data-price-box="product-id-35490">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35490-widget-product-grid" data-price-amount="26400" data-price-type="" class="price-wrapper ">৳26,400.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://assets.pcmag.com/media/images/432221-asus-rt-ac5300-wireless-ac5300-tri-band-gigabit-router.jpg?width=810&height=456" max-width="206" max-height="180" alt="Asus RT-AC5300 Router" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Asus RT-AC5300 Router" href="" class="product-item-link">
+Asus RT-AC5300 Router </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35493" data-price-box="product-id-35493">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35493-widget-product-grid" data-price-amount="28320" data-price-type="" class="price-wrapper ">৳28,320.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://www.kikatek.com/MMRes/ResourcesMultimediaProducts/Piper-Max/467/K199345_g3_124020.jpg" max-width="206" max-height="180" alt="TRENDnet 24 Port 10/100MBPS Greennet Switch TE100 S24G" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="TRENDnet 24 Port 10/100MBPS Greennet Switch TE100 S24G" href="" class="product-item-link">
+TRENDnet 24 Port 10/100MBPS Greennet Switch TE100 S24G </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="38771" data-price-box="product-id-38771">
+
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span id="old-price-38771-widget-product-grid" data-price-amount="5500" data-price-type="finalPrice" class="price-wrapper ">
+<span class="price">৳5,500.00</span></span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse4.mm.bing.net/th?id=OIP.69CtmGwt8O4a4b8ikWoPXQHaDF&pid=Api&P=0&w=407&h=170" max-width="206" max-height="180" alt="Cisco RV042-EU, Dual WAN VPN Router" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Cisco RV042-EU, Dual WAN VPN Router" href="" class="product-item-link">
+Cisco RV042-EU, Dual WAN VPN Router </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="35714" data-price-box="product-id-35714">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-35714-widget-product-grid" data-price-amount="7680" data-price-type="" class="price-wrapper ">৳7,680.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li class="product-item"> <div class="product-item-info">
+<a href="" class="product-item-photo">
+<span class="product-image-container" style="width:206px;">
+<span class="product-image-wrapper" style="padding-bottom: 87.378640776699%;">
+<img class="product-image-photo" src="https://tse3.mm.bing.net/th?id=OIP.Ud0FDGVsnnFERLuRvY8-3wHaFj&pid=Api&P=0&w=221&h=167" max-width="206" max-height="180" alt="Dell Power Edge R330 Rack Server, Intel Xeon E3-1240 v6" /></span>
+</span>
+</a>
+<div class="product-item-details">
+<strong class="product-item-name">
+<a title="Dell Power Edge R330 Rack Server, Intel Xeon E3-1240 v6" href="" class="product-item-link">
+Dell Power Edge R330 Rack Server, Intel Xeon E3-1240 v6 </a>
+</strong>
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="36048" data-price-box="product-id-36048">
+<a href="" class="minimal-price-link">
+<span class="price-container price-final_price tax weee">
+<span class="price-label">As low as</span>
+<span id="old-price-36048-widget-product-grid" data-price-amount="163800" data-price-type="" class="price-wrapper ">৳163,800.00</span>
+</span>
+</a>
+</div>
+<div class="product-item-inner">
+ <div class="product-item-actions">
+<div class="actions-primary">
+<form data-role="tocart-form" data-product-sku="MAMP000010I06" action="" method="post">
+<input type="hidden" name="product" value="52940"><input type="hidden" name="uenc" value="aHR0cHM6Ly9zaW5kYWJhZC5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXphVzVrWVdKaFpDNWpiMjB2L3Byb2R1Y3QvNTI5NDAv">
+<input name="form_key" type="hidden" value="I6EtoWfSp4BhnG15"><button type="submit" title="Add to Cart" class="action tocart primary">
+<span>Add to Cart</span>
+</button>
+</form>
+</div>
+<div class="actions-secondary" data-role="add-to-links">
+<a href="#" class="action tocompare" data-post='{}}' title="Add to Compare">
+<span>Add to Compare</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'owlcarouselmin'
+    ], function ($,owlcarouselmin) {
+        
+        $('.populer-products .owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            navigation: true,
+            responsiveClass: true,
+            lazyLoad: true,
+         
+            dots:false,
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                480: {
+                    items: 2,
+                    nav: false
+                },
+                768: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true
+                }
+            }
+        });
+    });
+    // ]]>
+
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/sindabad.com\/cookie\/index\/noCookies\/","triggers":[".action.towishlist"]}        }
+    }
+</script>
+<script data-role="msrp-popup-template" type="text/x-magento-template">
+    <div id="map-popup-click-for-price" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-price"></strong>
+        </div>
+        <div class="popup-content">
+            <div class="map-info-price" id="map-popup-content">
+                <div class="price-box">
+                    <div class="map-msrp" id="map-popup-msrp-box">
+                        <span class="label">Price</span>
+                        <span class="old-price map-old-price" id="map-popup-msrp">
+                            <span class="price"></span>
+                        </span>
+                    </div>
+                    <div class="map-price" id="map-popup-price-box">
+                        <span class="label">Actual Price</span>
+                        <span id="map-popup-price" class="actual-price"></span>
+                    </div>
+                </div>
+                <form action="" method="POST" class="map-form-addtocart">
+                    <input type="hidden" name="product" class="product_id" value="" />
+                    <button type="button"
+                            title="Add to Cart"
+                            class="action tocart primary">
+                        <span>Add to Cart</span>
+                    </button>
+                    <div class="additional-addtocart-box">
+                                            </div>
+                </form>
+            </div>
+            <div class="map-text" id="map-popup-text">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.           
+                 </div>
+        </div>
+    </div>
+    </script>
+<script data-role="msrp-info-template" type="text/x-magento-template">
+    <div id="map-popup-what-this" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-what-this"></strong>
+        </div>
+        <div class="popup-content">
+            <div class="map-help-text" id="map-popup-text-what-this">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart. </div>
+        </div>
+    </div>
+    </script>
+</div></div>
+</main>
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" :
+                                         {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/sindabad.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/sindabad.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/sindabad.com\/rest\/default\/V1\/products-render-info"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+</div> </body>
+
+        <!--this is footer-->
+        <div class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <aside class="widget widget-text">
+                                <div class="widget-title">
+                                    <h6>About Us</h6>
+                                </div>
+                                <div class="textwidget">
+                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+                                    <p>Location: 12 London Avenue, Suite 18
+                                        <br>E-mail: support@theme.com
+                                        <br>Phone: 8 800 123 4567
+                                        <br>
+                                    </p>
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>Payment Method</h6> 
+                             </div>
+                            <div class="payment">
+                              <ul>
+                                <li class="visa"><a href=""></a></li>
+                                <li class="master"><a href=""></a></li>
+                                <li class="ucash"><a href=""></a></li>
+                                <li class="surecash"><a href=""></a></li>
+                                <li class="roket"><a href=""></a></li>
+                                <li class="bkash"><a href=""></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>service</h6> </div>
+                            <ul class="menu">
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">wordpress</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">jomla</a></li>
+                                <li><a href="#">drupal</a></li>
+                                <li><a href="#">mezento</a></li>
+                                <li><a href="#">sofipy</a></li>
+                                <li><a href="#">opencard</a></li>
+                                <li><a href="#">wordpress</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">jomla</a></li>
+                                <li><a href="#">drupal</a></li>
+                                <li><a href="#">mezento</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>Our Showroom</h6> 
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14759.349910953333!2d91.7743520697754!3d22.3597647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1560967488248!5m2!1sen!2sbd" width="" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar"> 
+
+            </div>
+        </div>
+        <!--this is scroll to top-->
+        <a href="#" class="scrolltosmoth"><i class="fa fa-angle-up"></i></a>
+        <!--Cart Popup Dialog-->
+        <section id="popup1">
+                <h3 class="text-center my-3">Here your cart details</h3>
+                <div class="top-bar">
+                    <div class="top-left-cart">
+                        <h6>2 items</h6>
+                    </div>
+                    <div class="top-right-cart">
+                        <h5>Sub total</h5>
+                        <p>=27,964tk only</p>
+                    </div>
+                </div>
+                <div class="middle-bar">
+                    <div class="top-left-cart">
+                        <img src="images/category/Building-Construction.jpg" alt="">
+                    </div>
+                    <div class="top-right-cart">
+                        <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                        <small>৳23,500.00</small>
+                    </div>
+                    
+                </div>
+                <div class="middle-bar">
+                        <div class="top-left-cart">
+                            <img src="images/category/Building-Construction.jpg" alt="">
+                        </div>
+                        <div class="top-right-cart">
+                            <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                            <small>৳23,500.00</small>
+                        </div>
+                        
+                    </div>
+                <div class="checkout-btn">
+                    <a class="btn btn-success my-4" href="#">Procced to checkout</a>
+                </div>
+        </section>
+              
+              
+         
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+   
+  
+  </body>
+</html>

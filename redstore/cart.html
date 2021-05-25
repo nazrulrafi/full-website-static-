@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore | Ecommerce website design</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet " href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--===========Header===========-->
+    <section class="header-pro">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo/logo.png" alt="" srcset="">
+                </div>
+                <nav>
+                    <ul id="menuItems"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/header/cart.png" width="30" height="30" alt="" srcset=""></a>
+                <img class="menu-icon" src="images/logo/menu.png" width="30" height="30" alt="" srcset="" onclick="menuToggle()">
+            </div>
+        </div>
+    </section>
+
+    <!--===========Cart Items Details===========-->
+    <section class="cart-page">
+        <div class="small-container">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy/buy-1.jpg" alt="" srcset="">
+                            <div class="product-details">
+                                <p>Red Printed T-shirt</p>
+                                <small>Price:$850</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy/buy-2.jpg" alt="" srcset="">
+                            <div class="product-details">
+                                <p>Red Printed T-shirt</p>
+                                <small>Price:$850</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy/buy-3.jpg" alt="" srcset="">
+                            <div class="product-details">
+                                <p>Red Printed T-shirt</p>
+                                <small>Price:$850</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$50.00</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Total</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>SubTotal</td>
+                        <td>$170</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!--===========Footer===========-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, inventore.</p>
+                    <div class="app-logo">
+                        <img src="images/brands/app-store.png" alt="">
+                        <img src="images/brands/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo/logo-white.png" alt="" srcset="">
+                    <p> obcaecati perspiciatis porro doloribus, odit vero qui sit totam tempore quas esse eum et modi, placeat nobis. Laudantium obcaecati alias ea!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Cupons</a></li>
+                        <li><a href="#">Best Blogs</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Joint Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copywrite">The owner of This website is <a href="#" style="color: #ff523b;">nazrulrafi</a></p>
+        </div>
+    </footer>
+    <!--=========Js For Responsive========-->
+    <script>
+        var menuItems=document.getElementById("menuItems");
+        menuItems.style.maxHeight="0px";
+        function menuToggle(){
+          if( menuItems.style.maxHeight=="0px"){
+            menuItems.style.maxHeight="200px"
+          }  else{
+            menuItems.style.maxHeight="0px"
+          }
+        }
+    </script>
+   
+</body>
+</html>

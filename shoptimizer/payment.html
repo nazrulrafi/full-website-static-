@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/progress-wizard.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+                   
+    <title>ecommerce project</title>
+            
+    <script src="https://kit.fontawesome.com/c1764fe486.js"></script>
+    <style>
+        .payment ul{list-style-type:none;padding: 0;}
+        .payment ul li {float: left;}
+        .payment ul li a{display:block; width:64px;height: 42px;background-image: url('images/payment/portwallet-6.png');margin: 5px}
+
+        .payment ul .visa a{background-position: 0 0}
+        .payment ul .master a{background-position: 64px 0}
+        .payment ul .ucash a{background-position: 128px 0}
+        .payment ul .surecash a{background-position: 0 125px}
+        .payment ul .roket a{background-position: 190px 0}
+        .payment ul .bkash a{background-position: 256px 126px}
+    </style>
+             
+</head>
+<body>
+    
+      <!--this is page top bar-->
+      <header>
+        <div class="header-top d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="top-left"><strong>Call Us</strong>  +880158796542</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="top-middle"><i class="fas fa-plane"></i>
+                            Free worldwide shipping on all orders over <strong>$50.00i</strong> 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="top-social">
+                            <li><a href=""><i class="fab facebook fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab twitter fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab instagram fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab youtube fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="this is logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="input-group head-input input-group-lg pl-3"> 
+                            <input class="form-control" type="search" placeholder="Search Here">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="user">
+                            <ul>
+                                <li><a href="login.html"><i class="fas fa-user-alt"></i><span class="user-text">My Account</span></a></li>
+                                <li><a href=""><i class="far fa-question-circle"></i><span class="user-text">Help?</span></a></li>
+                                <li  class="popup1_open"><a href=""><i class="fas fa-shopping-cart"></i><span class="user-text">Cart</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+    
+    <!--this is payment information-->
+    <div class="payment-field">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="payment-head">
+                        <h3>Payment Method</h3>
+                        <p>(Please select only one! payment method)</p>
+                    </div>
+                    <div class="payment-content">
+                        <div class="payment-wrapper">
+                            <div class="payment-check">
+                                <input type="checkbox">
+                            </div>
+                            <div class="payment-image">
+                                <img src="images/cash/bkash.webp" alt="">
+                                <p>Bkash Payment</p>
+                            </div>
+                        </div>
+                        <div class="payment-wrapper">
+                                <div class="payment-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="payment-image">
+                                    <img src="images/cash/ssl.png" alt="">
+                                    <p>Card Payment</p>
+                                </div>
+                        </div>
+                        <div class="payment-wrapper">
+                                <div class="payment-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="payment-image">
+                                    <img src="images/cash/rocket.webp" alt="">
+                                    <p>Roket Payment</p>
+                                </div>
+                        </div>
+                        <div class="payment-wrapper">
+                                <div class="payment-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="payment-image">
+                                    <img src="images/cash/dmoney.webp" alt="">
+                                    <p>Dmoney</p>
+                                </div>
+                        </div>
+                        <div class="payment-wrapper">
+                            <div class="payment-check">
+                                <input type="checkbox">
+                             </div>
+                            <div class="payment-image">
+                                <img src="images/cash/cod.webp" alt="">
+                                <p>Cash on Delivery</p>
+                            </div>
+                        </div>
+                        <div class="payment-button mb-3">
+                            <a class="btn btn-success btn-lg text-center d-block" href="#" type="submit"> Confirm Orderr</a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="checkout-sidebar">
+                        <div class="checkout-header">
+                            <h2>Checkout Summary</h2>
+                        </div>
+                        <div class="checkout-content">
+                            <table class="checkout-table">
+                                <caption>Payment Details</caption>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td>5987tk</td>
+                                </tr>
+                                <tr>
+                                    <td>Shipping</td>
+                                    <td>500tk</td>
+                                </tr>
+                                <tr>
+                                        <td>Total</td>
+                                        <td>6987tk</td>
+                                </tr>
+                                <tr>
+                                        <td>Paybale total</td>
+                                        <td>6987tk</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="user-address">
+                                <h2> Your Address</h2>
+                                <p><em class="user-address-name">Name:</em> nazrul rafi</p>
+                                <p>
+                                    <em>Address: </em>
+                                    <br>
+                                    Alankar mor,in font of eleven star club
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--this is footer-->
+    <div class="footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <aside class="widget widget-text">
+                            <div class="widget-title">
+                                <h6>About Us</h6>
+                            </div>
+                            <div class="textwidget">
+                                <p>Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+                                <p>Location: 12 London Avenue, Suite 18
+                                    <br>E-mail: support@theme.com
+                                    <br>Phone: 8 800 123 4567
+                                    <br>
+                                </p>
+                                <ul class="social-icons">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="widget-title">
+                            <h6>Payment Method</h6> 
+                         </div>
+                        <div class="payment">
+                          <ul>
+                            <li class="visa"><a href=""></a></li>
+                            <li class="master"><a href=""></a></li>
+                            <li class="ucash"><a href=""></a></li>
+                            <li class="surecash"><a href=""></a></li>
+                            <li class="roket"><a href=""></a></li>
+                            <li class="bkash"><a href=""></a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="widget-title">
+                            <h6>service</h6> </div>
+                        <ul class="menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">wordpress</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">jomla</a></li>
+                            <li><a href="#">drupal</a></li>
+                            <li><a href="#">mezento</a></li>
+                            <li><a href="#">sofipy</a></li>
+                            <li><a href="#">opencard</a></li>
+                            <li><a href="#">wordpress</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">jomla</a></li>
+                            <li><a href="#">drupal</a></li>
+                            <li><a href="#">mezento</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="widget-title">
+                            <h6>Our Showroom</h6> 
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14759.349910953333!2d91.7743520697754!3d22.3597647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1560967488248!5m2!1sen!2sbd" width="" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar"> 
+
+        </div>
+    </div>
+    <!--this is scroll to top-->
+    <a href="#" class="scrolltosmoth"><i class="fa fa-angle-up"></i></a>
+    <!--Cart Popup Dialog-->
+    <section id="popup1">
+            <h3 class="text-center my-3">Here your cart details</h3>
+            <div class="top-bar">
+                <div class="top-left-cart">
+                    <h6>2 items</h6>
+                </div>
+                <div class="top-right-cart">
+                    <h5>Sub total</h5>
+                    <p>=27,964tk only</p>
+                </div>
+            </div>
+            <div class="middle-bar">
+                <div class="top-left-cart">
+                    <img src="images/category/Building-Construction.jpg" alt="">
+                </div>
+                <div class="top-right-cart">
+                    <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                    <small>৳23,500.00</small>
+                </div>
+                
+            </div>
+            <div class="middle-bar">
+                    <div class="top-left-cart">
+                        <img src="images/category/Building-Construction.jpg" alt="">
+                    </div>
+                    <div class="top-right-cart">
+                        <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                        <small>৳23,500.00</small>
+                    </div>
+                    
+                </div>
+            <div class="checkout-btn">
+                <a class="btn btn-success my-4" href="#">Procced to checkout</a>
+            </div>
+    </section>
+ 
+ 
+   
+    
+        <!--this is scroll to top-->
+        <a href="#" class="scrolltosmoth"><i class="fa fa-angle-up"></i></a>
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="js/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+     <script src="js/owl.carousel.min.js"></script>
+     <script type="text/javascript" src="js/slick.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+</html>

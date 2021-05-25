@@ -1,0 +1,112 @@
+@media all and (max-width:991px){
+    .main-menu ul{
+        padding: 0;
+        display: none;
+    }
+    .main-menu ul li{float: none}
+    .main-menu .bar{
+        display: block;
+    }
+    .main-menu ul {
+		position: inherit;
+		left: 20px;
+		background: transparent;
+    }
+    .main-menu ul li:hover a,
+	.main-menu ul li:hover a {
+		background: transparent;
+    }
+    .head-input{
+        margin: 20px 0;
+    }
+    .carousel-inner{
+        height: 350px;
+    }
+    .carousel-overlay{
+        height: 350px;
+       
+    }
+
+    .wp-caption-text{
+    color:#ffffff;  
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    }
+    .wp-caption-text strong{
+        font-size: 18px;
+    }
+    .wp-caption-text a{
+        background-color: #3BB54A;
+        padding: 8px ;
+        font-size: 12px;
+        margin-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+  
+    }
+    .partner-wrapper{
+        margin-top: 30px;
+    }
+   
+}
+@media all and (max-width:768px){
+    .carousel-inner{
+        height: 250px;
+    }
+    .carousel-overlay{
+        height: 250px;
+       
+    }
+    .wp-caption-text{
+        color:#ffffff;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    .wp-caption-text strong{
+        font-size: 18px;
+    }
+    .wp-caption-text a{
+        background-color: #3BB54A;
+        padding: 10px ;
+        font-size: 16px;
+        margin-top: 15px;
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+  
+    }
+    .primary-wrapper{
+        margin-top: 20px;
+    }
+    .partner-wrapper{
+        margin-top: 30px;
+    }
+    iframe{
+        width: 100%;
+    }
+  
+}
+@media all and (max-width:768px){
+    .carousel-inner{
+        height: 190px;
+    }
+    .carousel-overlay{
+        height: 190px;
+       
+    }
+    .partner-bottom{
+        border-bottom: 0px;
+    }
+    .partner-wrapper{
+        margin-left:0px;
+    }
+}

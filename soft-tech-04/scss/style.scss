@@ -1,0 +1,165 @@
+$footer-black: #000;
+
+.navbar{
+  background: #000;
+  .nav-item{
+    padding-left: 1rem;
+    .nav-link{
+      text-transform: uppercase;
+    }
+  }
+}
+.carousel-item{
+  height: 550px;
+  .carousel-overlay{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 550px;
+  }
+}
+.carousel-img-1{
+  background-image: url(../images/slider01.jpg);
+  background-size: cover;
+}
+.carousel-img-2{
+  background-image: url(../images/slider02.jpg);
+  background-size: cover;
+}
+.carousel-img-3{
+  background-image: url(../images/slider03.jpg);
+  background-size: cover;
+}
+#home-icon{
+  .fas{
+    font-size: 40px;
+  }
+}
+#get-start{
+  background-image: url(../images/bg1.jpeg);
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed;
+
+  .get-overlay{
+    background-color: rgba(0, 0, 0, 0.65);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media(max-width: 767px){
+  #get-start{
+    min-height: 300px;
+  }
+  #gallery{
+    img{
+      width: 100%!important;
+      height: auto!important;
+      margin-bottom: 10px;
+    }
+  }
+}
+@media(max-width: 480px){
+  .carousel{
+    h2{
+      font-size: 2.5rem;
+    }
+    .carousel-caption{
+      p{
+        text-align: justify;
+      }
+    }
+  }
+  .carousel-item{
+    height: 400px;
+    .carousel-overlay{
+      background-color: rgba(0, 0, 0, 0.65);
+      height: 400px;
+    }
+  }
+  #get-start{
+    min-height: 450px;
+  }
+  #home-info{
+    h3{
+      text-align: center;
+    }
+    img{
+      margin-top: 20px;
+    }
+  }
+  #home-play{
+    height: 300px;
+  }
+}
+
+#home-play{
+  background-image: url(../images/people.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 250px;
+
+  .home-overlay{
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+  }
+  .far{
+    font-size: 40px;
+    color: #ffffff;
+  }
+}
+#gallery{
+  img{
+    height: 250px;
+    width: 360px;
+  }
+}
+#footer{
+  background: $footer-black;
+}
+#about-header{
+  background-image: url(../images/image1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+}
+#about-info{
+  img{
+    width: 300px;
+    height: 300px;
+  }
+}
+#icon-box{
+  .fas{
+    font-size: 40px;
+  }
+}
+#testimonial{
+  .slick-prev:before,
+  .slick-next:before{
+    color: #000;
+  }
+}
+#service-header{
+  background-image: url(../images/image3.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+}
+#blog-header{
+  background-image: url(../images/image1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+}
+#contact-header{
+  background-image: url(../images/image1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+}

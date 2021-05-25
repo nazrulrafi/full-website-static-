@@ -1,0 +1,135 @@
+
+.newarrival
+{
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.col-md-7 h2
+{
+    color:#555;
+}
+.stars
+{
+    height:35px;
+}
+
+.price
+{
+
+    color:#FE980F;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+input
+{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width:30px;
+}
+.cart
+{
+    background: #FE980F;
+    color: #FE980F;
+    font-size: 15px;
+    margin-left:50px;
+}
+.tab-content
+{
+    box-sizing: border-box;
+}
+
+
+.product-attribute{
+    padding: 5.5px 5px 10px;
+    border: none;
+    list-style: none none;
+    color: #333;
+    font-family: roboto,helvetica neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+.name{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    /*background-color: #fff;*/
+    box-sizing: border-box;
+    text-shadow: none;
+}
+.tab-content {
+    overflow: hidden;
+    width: 100%;
+}
+
+*{
+    box-sizing:border-box;
+}
+h1{
+    color:yellow;
+    font-size: 50px;
+}
+
+.container1{
+   
+   
+}
+.rating-wrapper{
+    direction: rtl;
+    margin-bottom: 50px;
+}
+.rating-wrapper input{
+    display: none;
+}
+.rating-wrapper label{
+    display:inline-block;
+    width:40px;
+    position: relative;
+    cursor: pointer;
+}
+.rating-wrapper label:before{
+    content: "\2605";
+    position: absolute;
+    font-size: 40px;
+    display: inline-block;
+    top:0;
+    left:0;
+
+}
+.rating-wrapper label:after{
+    content: "\2605";
+    position: absolute;
+    font-size: 40px;
+    display: inline-block;
+    top:0;
+    left:0;
+    color: yellow;
+    opacity: 0;
+
+}
+.rating-wrapper label:hover:after,
+.rating-wrapper label:hover ~ label:after,
+.rating-wrapper input:checked ~ label:after{
+    opacity:1;
+
+}
+
+
+
+
+

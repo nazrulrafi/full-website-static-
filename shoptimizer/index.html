@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+
+    <title>ecommerce project</title>
+
+    <script src="https://kit.fontawesome.com/c1764fe486.js"></script>
+    <style>
+        .payment ul{list-style-type:none;padding: 0;}
+        .payment ul li {float: left;}
+        .payment ul li a{display:block; width:64px;height: 42px;background-image: url('images/payment/portwallet-6.png');margin: 5px}
+
+        .payment ul .visa a{background-position: 0 0}
+        .payment ul .master a{background-position: 64px 0}
+        .payment ul .ucash a{background-position: 128px 0}
+        .payment ul .surecash a{background-position: 0 125px}
+        .payment ul .roket a{background-position: 190px 0}
+        .payment ul .bkash a{background-position: 256px 126px}
+        .newsletter{
+            background-image: url('images/background-newslater-5.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+        }
+        .about-store{
+             background-image: url('images/about-us2-2.jpg');
+             background-size: cover;
+             padding: 100px 0;
+        }
+    </style>
+  </head>
+  <body>
+      
+         <!--this is page top bar-->
+        <header>
+            <div class="header-top d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="top-left"><strong>Call Us</strong>  +880158796542</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="top-middle"><i class="fas fa-plane"></i>
+                                Free worldwide shipping on all orders over <strong>$50.00i</strong> 
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="top-social">
+                                <li><a href=""><i class="fab facebook fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab twitter fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab instagram fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fab youtube fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="this is logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="input-group head-input input-group-lg pl-3"> 
+                                <input class="form-control" type="search" placeholder="Search Here">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="user">
+                                <ul>
+                                    <li><a href="login.html"><i class="fas fa-user-alt"></i><span class="user-text">My Account</span></a></li>
+                                    <li><a href=""><i class="far fa-question-circle"></i><span class="user-text">Help?</span></a></li>
+                                    <li  class="popup1_open"><a href=""><i class="fas fa-shopping-cart"></i><span class="user-text">Cart</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </header>
+        <<!--====This is site main menu====-->
+        <nav class="main-menu"> 
+            <div class="container">
+                <a href="#" class="bar">Menu <i class="fa fa-bars"></i></a>
+                <ul class="menubar">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Shop <i class="fas fa-angle-down caret"></i></a>
+                        <ul>
+                            <li><a href="#">Cosmatics</a></li>
+                            <li><a href="#">Ornaments</a></li>
+                            <li><a href="#">Dresses </a> </li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Otherst</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Men <i class="fas fa-angle-down caret"></i></a> 
+                        <ul>
+                            <li><a href="#">Cosmatics</a></li>
+                            <li><a href="#">Ornaments</a></li>
+                            <li><a href="#">Dresses </a> </li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Otherst</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Women <i class="fas fa-angle-down caret"></i></a>
+                            <ul>
+                                <li><a href="#">Cosmatics</a></li>
+                                <li><a href="#">Ornaments</a></li>
+                                <li><a href="#">Dresses </a></li>
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Otherst</a></li>
+                            </ul>
+    
+    
+                    </li>
+                    <li><a href="product_details.html">Details </a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Contact </a></li>
+                </ul>
+                <div class="main-menu-right">
+                    <div class="menu-right-text d-none d-lg-block">
+                        <span >0.00</span><i class="fas fa-shopping-basket"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <!--This is our main slider-->
+        <div class="main-slide">
+            <div class="container-fluid px-0">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item carousel-overlay active">
+                        <img class="d-block w-100" src="images/slider/slider04.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slider/slider05.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slider/slider06.png" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                            <img class="d-block w-100" src="images/slider/slider07.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <!--This is primary section-->
+        <section class="primary wow slideInLeft" data-wow-duration="1s">
+           <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="primary-wrapper">
+                            <div class="wp-caption">
+                                 <img src="images/primary/home_feature_8.jpg" alt="">
+                                 <div class="widget-image-caption ">
+                                    <div class="wp-caption-text">
+                                        <strong>Winter Jackets</strong>
+                                        <em>from $60</em><br>
+                                        <span><a href="#">Shop Now</a></span>
+                                    </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="primary-wrapper">
+                            <div class="wp-caption">
+                                <img src="images/primary/home_feature_5a.jpg" alt="">
+                                <div class="widget-image-caption ">
+                                     <div class="wp-caption-text">
+                                        <strong>Winter Jackets</strong>
+                                        <em>from $60</em><br>
+                                         <span><a href="#">Shop Now</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="primary-wrapper">
+                                <div class="wp-caption">
+                                    <img src="images/primary/home_feature_7a.jpg" alt="">
+                                    <div class="widget-image-caption ">
+                                         <div class="wp-caption-text">
+                                            <strong>Winter Jackets</strong>
+                                            <em>from $60</em><br>
+                                             <span><a href="#">Shop Now</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+           </div>
+        </section>
+        <!--this is product slider for man-->
+        <div class="container-fluid my-5 wow slideInRight" data-wow-duration="2s">
+            <div class="product-title">
+                <strong class="product-title-head">Latest Man Clothing Product</strong>
+            </div>
+            <div class="slider my-5">
+                <div class="owl-carousel">
+                    <div class="pro-details">
+                         <div class="pro-card">
+                              <img class="-pro-card-img" src="images/pro-gallary/man-shirt01.jpg" alt="Card image cap">
+                             <div class="image-overlay">
+                                <div class="cart-btn"><a href="#">add to cart</a></div>
+                             </div>      
+                        </div>
+                        <div class="pro-card-details">
+                            <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                            <p>Lorem, ipsum dolor.</p>
+                            <small class="price">$896.35</small>                    
+                        </div>
+                    </div>
+                    <div class="pro-details">
+                        <div class="pro-card">
+                            <img class="-pro-card-img" src="images/pro-gallary/man-shirt02.jpg" alt="Card image cap">
+                            <div class="image-overlay">
+                                <div class="cart-btn"><a href="#">add to cart</a></div>
+                            </div>      
+                        </div>
+                         <div class="pro-card-details">
+                             <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                             <p>Lorem, ipsum dolor.</p>
+                             <small class="price">$896.35</small>                      
+                        </div>
+                    </div>      
+                    <div class="pro-details">
+                            <div class="pro-card">
+                                 <img class="-pro-card-img" src="images/pro-gallary/man-shirt03.jpg" alt="Card image cap">
+                                <div class="image-overlay">
+                                   <div class="cart-btn"><a href="#">add to cart</a></div>
+                                </div>      
+                           </div>
+                           <div class="pro-card-details">
+                               <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                               <p>Lorem, ipsum dolor.</p>
+                               <small class="price">$896.35</small>                    
+                           </div>
+                       </div>
+                       <div class="pro-details">
+                           <div class="pro-card">
+                               <img class="-pro-card-img" src="images/pro-gallary/man-shirt04.jpg" alt="Card image cap">
+                               <div class="image-overlay">
+                                   <div class="cart-btn"><a href="#">add to cart</a></div>
+                               </div>      
+                           </div>
+                            <div class="pro-card-details">
+                                <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                <p>Lorem, ipsum dolor.</p>
+                                <small class="price">$896.35</small>                      
+                           </div>
+                       </div> 
+                       <div class="pro-details">
+                            <div class="pro-card">
+                                 <img class="-pro-card-img" src="images/pro-gallary/man-shirt05.jpg" alt="Card image cap">
+                                <div class="image-overlay">
+                                   <div class="cart-btn"><a href="#">add to cart</a></div>
+                                </div>      
+                           </div>
+                           <div class="pro-card-details">
+                               <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                               <p>Lorem, ipsum dolor.</p>
+                               <small class="price">$896.35</small>                    
+                           </div>
+                       </div>
+                       <div class="pro-details">
+                           <div class="pro-card">
+                               <img class="-pro-card-img" src="images/pro-gallary/man-shirt06.jpg" alt="Card image cap">
+                               <div class="image-overlay">
+                                   <div class="cart-btn"><a href="#">add to cart</a></div>
+                               </div>      
+                           </div>
+                            <div class="pro-card-details">
+                                <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                <p>Lorem, ipsum dolor.</p>
+                                <small class="price">$896.35</small>                      
+                           </div>
+                       </div> 
+                </div>
+             </div>
+        </div>
+         <!--this is product slider for woman-->
+         <div class="container-fluid my-5 wow slideInLeft" data-wow-duration="2s">
+                <div class="product-title">
+                    <strong class="product-title-head">Latest Woman Clothing Product</strong>
+                </div>
+                <div class="slider my-5">
+                    <div class="owl-carousel">
+                        <div class="pro-details">
+                             <div class="pro-card">
+                                  <img class="-pro-card-img" src="images/pro-gallary/man-shirt01.jpg" alt="Card image cap">
+                                 <div class="image-overlay">
+                                    <div class="cart-btn"><a href="#">add to cart</a></div>
+                                 </div>      
+                            </div>
+                            <div class="pro-card-details">
+                                <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                <p>Lorem, ipsum dolor.</p>
+                                <small class="price">$896.35</small>                    
+                            </div>
+                        </div>
+                        <div class="pro-details">
+                            <div class="pro-card">
+                                <img class="-pro-card-img" src="images/pro-gallary/man-shirt02.jpg" alt="Card image cap">
+                                <div class="image-overlay">
+                                    <div class="cart-btn"><a href="#">add to cart</a></div>
+                                </div>      
+                            </div>
+                             <div class="pro-card-details">
+                                 <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                 <p>Lorem, ipsum dolor.</p>
+                                 <small class="price">$896.35</small>                      
+                            </div>
+                        </div>      
+                        <div class="pro-details">
+                                <div class="pro-card">
+                                     <img class="-pro-card-img" src="images/pro-gallary/man-shirt03.jpg" alt="Card image cap">
+                                    <div class="image-overlay">
+                                       <div class="cart-btn"><a href="#">add to cart</a></div>
+                                    </div>      
+                               </div>
+                               <div class="pro-card-details">
+                                   <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                   <p>Lorem, ipsum dolor.</p>
+                                   <small class="price">$896.35</small>                    
+                               </div>
+                           </div>
+                           <div class="pro-details">
+                               <div class="pro-card">
+                                   <img class="-pro-card-img" src="images/pro-gallary/man-shirt04.jpg" alt="Card image cap">
+                                   <div class="image-overlay">
+                                       <div class="cart-btn"><a href="#">add to cart</a></div>
+                                   </div>      
+                               </div>
+                                <div class="pro-card-details">
+                                    <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                    <p>Lorem, ipsum dolor.</p>
+                                    <small class="price">$896.35</small>                      
+                               </div>
+                           </div> 
+                           <div class="pro-details">
+                                <div class="pro-card">
+                                     <img class="-pro-card-img" src="images/pro-gallary/man-shirt05.jpg" alt="Card image cap">
+                                    <div class="image-overlay">
+                                       <div class="cart-btn"><a href="#">add to cart</a></div>
+                                    </div>      
+                               </div>
+                               <div class="pro-card-details">
+                                   <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                   <p>Lorem, ipsum dolor.</p>
+                                   <small class="price">$896.35</small>                    
+                               </div>
+                           </div>
+                           <div class="pro-details">
+                               <div class="pro-card">
+                                   <img class="-pro-card-img" src="images/pro-gallary/man-shirt06.jpg" alt="Card image cap">
+                                   <div class="image-overlay">
+                                       <div class="cart-btn"><a href="#">add to cart</a></div>
+                                   </div>      
+                               </div>
+                                <div class="pro-card-details">
+                                    <h6 class="pro-card-top">JACKETS & COATS, SHORTS, TOPS</h6>
+                                    <p>Lorem, ipsum dolor.</p>
+                                    <small class="price">$896.35</small>                      
+                               </div>
+                           </div> 
+                    </div>
+                 </div>
+        </div>
+        <!--this is category slider-->
+        <div class="category my-5 wow slideInRight" data-wow-duration="2s">
+            <div class="container-fluid">
+                <div class="product-title">
+                    <strong class="product-title-head">All Category</strong>
+                </div>
+                <div class="category-content">
+                    <div class="main-carousel">
+                        <div class="carousel-cell">
+                            <a href="#"><img src="images/category/Building-Construction.jpg" alt=""></a>
+                            <h6>Building-Construction</h6>
+                        </div>
+                        <div class="carousel-cell">
+                            <a href="#"><img src="images/category/Chemicals-Dyes.jpg" alt=""></a>
+                            <h6>Chemicals-Dyes</h6>
+                        </div>
+                        <div class="carousel-cell">
+                            <a href="#"><img src="images/category/Computer-IT.jpg" alt=""></a>
+                            <h6>Computer-IT</h6>
+                        </div>
+                        <div class="carousel-cell">
+                            <a href="#"><img src="images/category/Corporate-Gifts-Branding-Items.jpg" alt=""></a>
+                            <h6>Corporate-Items</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Electrical-Lighting.jpg" alt=""></a>
+                                <h6>Electrical-Lighting</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Electronics-Appliances.jpg" alt=""></a>
+                                <h6>Electronics-Appliances</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Industrial-Items.jpg" alt=""></a>
+                                <h6>Industrial-Items</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Medical-Lab-Equipment.jpg" alt=""></a>
+                                <h6>Medical-Lab-Equipment</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Mobile-Accessoriesv3.jpg" alt=""></a>
+                                <h6>Mobile-Accessoriesv3</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Pantry-Cleaning.jpg" alt=""></a>
+                                <h6>Pantry-Cleanin</h6>
+                        </div>
+                        <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Stationery-Office.jpg" alt=""></a>
+                                <h6>Stationery-Office</h6>
+                        </div>             
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!--this is Brands slider-->
+        <div class="category my-5 wow slideInLeft" data-wow-duration="2s">
+                <div class="container-fluid">
+                    <div class="product-title">
+                        <strong class="product-title-head">All Brands and shop</strong>
+                    </div>
+                    <div class="category-content">
+                        <div class="main-carousel">
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Mobile-Accessoriesv3.jpg" alt=""></a>
+                                <h6>Mobile-Accessoriesv3</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Pantry-Cleaning.jpg" alt=""></a>
+                                <h6>Pantry-Cleanin</h6>
+                            </div>
+                                <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Stationery-Office.jpg" alt=""></a>
+                                <h6>Stationery-Office</h6>
+                            </div> 
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Building-Construction.jpg" alt=""></a>
+                                <h6>Building-Construction</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Chemicals-Dyes.jpg" alt=""></a>
+                                <h6>Chemicals-Dyes</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Computer-IT.jpg" alt=""></a>
+                                <h6>Computer-IT</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                <a href="#"><img src="images/category/Corporate-Gifts-Branding-Items.jpg" alt=""></a>
+                                <h6>Corporate-Items</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                    <a href="#"><img src="images/category/Electrical-Lighting.jpg" alt=""></a>
+                                    <h6>Electrical-Lighting</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                    <a href="#"><img src="images/category/Electronics-Appliances.jpg" alt=""></a>
+                                    <h6>Electronics-Appliances</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                    <a href="#"><img src="images/category/Industrial-Items.jpg" alt=""></a>
+                                    <h6>Industrial-Items</h6>
+                            </div>
+                            <div class="carousel-cell">
+                                    <a href="#"><img src="images/category/Medical-Lab-Equipment.jpg" alt=""></a>
+                                    <h6>Medical-Lab-Equipment</h6>
+                            </div>
+                                        
+                         </div>
+                    </div>
+                </div>
+            </div>
+         <!--this is Newsletter -->
+         <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content wow flipInX">
+                    <h5>CONDIM PARTURIENT VENENATIS</h5>
+                    <h2>Hi there, sign up and <br> connect to WoodMart!</h2>
+                    <p>Be the first to learn about our latest trends and get exclusive offers.</p>
+                    <button class="btn btn-info btn-lg my-4">Newsletter Subscriber</button>
+                </div>
+            </div>
+         </section>
+         <!--This is partnership-->
+         <section class="partnership">
+             <div class="container">
+                 <h2 class="text-center text-success my-5 text-weight-bold">Our Partner</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="partnership-details text-center wow slideInLeft">
+                            <h5>CONDIMENTUM QUIS NASCETUR</h5>
+                             <h3>Discover fashion and style on our online worldwide store.</h3>
+                             <p>Etiam semper nibh orci, ac tincidunt mi consectetur a. In quis tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum ullamcorper pharetra. Vivamus quis turpis et enim cursus neque quis. In quis tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum ullamcorper pharetra. Vivamus quis turpis et enim cursus neque quis</p>
+                            <div class="partner-button mt-4">
+                                <a class="btn btn-success btn-lg mr-3" href="#">Shop Now</a>
+                                <a class="btn btn-warning btn-lg" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="partner-wrapper wow slideInRight" data-wow-duration="1s">
+                            <div class="row">
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right partner-bottom">
+                                        <a href="#"><img src="images/partner/partner01.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right partner-bottom">
+                                        <a href="#"><img src="images/partner/partner02.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-bottom">
+                                        <a href="#"><img src="images/partner/partner03.png" alt=""></a>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right partner-bottom">
+                                        <a href="#"><img src="images/partner/partner04.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right partner-bottom">
+                                        <a href="#"><img src="images/partner/partner05.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-bottom">
+                                        <a href="#"><img src="images/partner/partner06.png" alt=""></a>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right">
+                                        <a href="#"><img src="images/partner/partner07.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image partner-right">
+                                        <a href="#"><img src="images/partner/partner08.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 partner-dimen">
+                                    <div class="partner-image">
+                                        <a href="#"><img src="images/partner/partner09.png" alt=""></a>
+                                    </div>   
+                                </div>
+                             </div>    
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </section>
+         <!--=====About Our Store=====-->
+        <section class="about-store">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="store-wrapper wow slideInLeft" data-wow-duration="1s">
+                            <h4 class="store-head">ALL-IN-ONE ECOMMERCE SOLUTION</h4>
+                            <h4 style="font-size: 30px;text-align: left;margin:20px 0;"">ABOUT OUR WOODMART STORE</h4>
+                            <p style="text-align: left;margin:20px 0;">Nec &nbsp;adipiscing luctus consequat penatibus parturient massa cubilia etiam a adipiscing enigm dignissim congue egestas sapien a. Scelerisque ac non ut ac bibendum himenaeos ullamcorper justo himenaeos vel a sapien quis.</p>
+                            <button class="btn btn-primary">Read More</button>
+                            <button class="btn btn-info">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====About Us=====-->
+        <section class="about-us d-none d-md-block">
+            <h3 class="about-title mb-4">ABOUT SHOPTIMIZER</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-wrapper wow slideInLeft" data-wow-duration="1s">
+                            <div class="about-wrapper-top">
+                                <div class="about-wrapper-left">
+                                    <div class="icon-wrapper">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <h5 class="text-center mt-3 font-weight-bold">Learn From Expert</h5>
+                                </div>
+                                <div class="about-wrapper-right">
+                                    <div class="icon-wrapper">
+                                        <i class="fas fa-laptop"></i>
+                                    </div>
+                                    <h5 class="text-center mt-3 font-weight-bold">Get Online Support</h5>
+                                </div>
+                            </div>
+                            <div class="about-wrapper-top">
+                                <div class="about-wrapper-left">
+                                    <div class="icon-wrapper">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <h5 class="text-center mt-3 font-weight-bold">Learn From Expert</h5>
+                                </div>
+                                <div class="about-wrapper-right">
+                                    <div class="icon-wrapper">
+                                        <i class="fas fa-laptop"></i>
+                                    </div>
+                                    <h5 class="text-center mt-3 font-weight-bold">Get Online Support</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center mb-5 wow slideInRight">Frequently Ask Question</h3>
+                        <div id="accordion" class="wow slideInRight" data-wow-duration="1s">
+                            <h3>Section 1</h3>
+                            <div>
+                              <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                            </div>
+                            <h3>Section 2</h3>
+                            <div>
+                              <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                            </div>
+                            <h3>Section 3</h3>
+                            <div>
+                              <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                              <ul>
+                                <li>List item one</li>
+                                <li>List item two</li>
+                                <li>List item three</li>
+                              </ul>
+                            </div>
+                            <h3>Section 4</h3>
+                            <div>
+                              <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--this is footer-->
+        <div class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <aside class="widget widget-text">
+                                <div class="widget-title">
+                                    <h6>About Us</h6>
+                                </div>
+                                <div class="textwidget">
+                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+                                    <p>Location: 12 London Avenue, Suite 18
+                                        <br>E-mail: support@theme.com
+                                        <br>Phone: 8 800 123 4567
+                                        <br>
+                                    </p>
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>Payment Method</h6> 
+                             </div>
+                            <div class="payment">
+                              <ul>
+                                <li class="visa"><a href=""></a></li>
+                                <li class="master"><a href=""></a></li>
+                                <li class="ucash"><a href=""></a></li>
+                                <li class="surecash"><a href=""></a></li>
+                                <li class="roket"><a href=""></a></li>
+                                <li class="bkash"><a href=""></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>service</h6> </div>
+                            <ul class="menu">
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">wordpress</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">jomla</a></li>
+                                <li><a href="#">drupal</a></li>
+                                <li><a href="#">mezento</a></li>
+                                <li><a href="#">sofipy</a></li>
+                                <li><a href="#">opencard</a></li>
+                                <li><a href="#">wordpress</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">jomla</a></li>
+                                <li><a href="#">drupal</a></li>
+                                <li><a href="#">mezento</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="widget-title">
+                                <h6>Our Showroom</h6> 
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14759.349910953333!2d91.7743520697754!3d22.3597647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1560967488248!5m2!1sen!2sbd" width="" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar"> 
+
+            </div>
+        </div>
+        <!--this is scroll to top-->
+        <a href="#" class="scrolltosmoth"><i class="fa fa-angle-up"></i></a>
+        <!--Cart Popup Dialog-->
+        <section id="popup1">
+                <h3 class="text-center my-3">Here your cart details</h3>
+                <div class="top-bar">
+                    <div class="top-left-cart">
+                        <h6>2 items</h6>
+                    </div>
+                    <div class="top-right-cart">
+                        <h5>Sub total</h5>
+                        <p>=27,964tk only</p>
+                    </div>
+                </div>
+                <div class="middle-bar">
+                    <div class="top-left-cart">
+                        <img src="images/category/Building-Construction.jpg" alt="">
+                    </div>
+                    <div class="top-right-cart">
+                        <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                        <small>৳23,500.00</small>
+                    </div>
+                    
+                </div>
+                <div class="middle-bar">
+                        <div class="top-left-cart">
+                            <img src="images/category/Building-Construction.jpg" alt="">
+                        </div>
+                        <div class="top-right-cart">
+                            <a href="#">Pedrollo D Submersible Drainage Pumps Single Phase Dm 10</a>
+                            <small>৳23,500.00</small>
+                        </div>
+                        
+                    </div>
+                <div class="checkout-btn">
+                    <a class="btn btn-success my-4" href="#">Procced to checkout</a>
+                </div>
+        </section>
+              
+              
+         
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+   
+  
+  </body>
+</html>
